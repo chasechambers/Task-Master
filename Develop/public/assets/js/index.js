@@ -1,5 +1,3 @@
-
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -27,14 +25,14 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
-const getNotes = async () => {
- const result = await fetch('/api/notes', {
+const getNotes =  () => {
+ const result =  fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
     },
   });
-  const json = await result.json();
+  const json = result.json();
   return json;
 };
 
