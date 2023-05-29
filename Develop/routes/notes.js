@@ -33,7 +33,7 @@ notes.post('/notes', (req, res) => {
   }
 });
 
-notes.delete('/notes/:id', (req, res) => {
+notes.delete('/api/notes/:id', (req, res) => {
   
 const id = req.params.id*1;
 const index = noteDatabase.indexOf(id);
