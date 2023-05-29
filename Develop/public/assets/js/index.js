@@ -1,3 +1,7 @@
+const notesRouter = require('./notes');
+
+app.use('/notes', notesRouter);
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
