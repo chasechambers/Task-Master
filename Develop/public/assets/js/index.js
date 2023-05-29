@@ -1,10 +1,3 @@
-const notesRouter = require('./notes');
-const express = require('express');
-
-const app = express();
-
-app.use('/notes', notesRouter);
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
