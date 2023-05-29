@@ -7,7 +7,6 @@ app.listen(PORT,
     () => console.log(`server is running on ${PORT}`));
 
 app.use(express.static('public'));
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
