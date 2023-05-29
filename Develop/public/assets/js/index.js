@@ -1,4 +1,7 @@
 const notesRouter = require('./notes');
+const express = require('express');
+
+const app = express();
 
 app.use('/notes', notesRouter);
 
@@ -185,3 +188,5 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+module.exports = app;
