@@ -32,13 +32,15 @@ notes.post('/notes', (req, res) => {
 
 notes.delete('/notes/:id', (req, res) => {
 
-    let currentDatabase = fs.readFile('./db/db.json', 'utf8', function(err, data) {});
+  let notes = JSON.parse(fs.readFileSync('./db/db.json'));
 
-    let id = req.params.id;
-    console.log(id, req.params.id);
+  let id = req.params.id;
+  let filteredNote = notes.filter((note) => note.id !== id)
 
-    currentDatabase.filter(req.params.id !== id);
-  
+fs.writeFileSync('./db/db.json', JSON.stringify(filteredNote), (err) => {
+    if (err) throw err;
+})
+res.json(filteredNote);
 });
 
 module.exports = notes;

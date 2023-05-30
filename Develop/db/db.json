@@ -1,17 +1,12 @@
 [
     {
-        "title": "Test Titleazdf",
-        "text": "Test textasdfa",
-        "id": "85ea36a5-8afb-406a-b877-4765b142d04b"
+        "title": "Existing Notes",
+        "text": "One",
+        "id": "e0737a02-d356-4a8f-9399-644d04b2dde9"
     },
     {
-        "title": "Test",
-        "text": "Test",
-        "id": "eb2b4863-52e4-48ea-9a7c-988999ee3d68"
-    },
-    {
-        "title": "Adding a note",
-        "text": "This is a new note",
-        "id": "4ea3c3aa-c888-47e7-9dee-47b042c02441"
+        "title": "Existing Notes",
+        "text": "Two!",
+        "id": "69c8c125-736f-407f-8aef-061404c7642f"
     }
 ]
