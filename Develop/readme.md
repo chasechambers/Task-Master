@@ -21,8 +21,8 @@ This app allows you to add notes with a title and text, view them, and then dele
 ## Installation
 You access this app through:
 
-https://theultimatenotekeeperv1.herokuapp.com/\
-https://git.heroku.com/theultimatenotekeeperv1.git
+App page -https://theultimatenotekeeperv1.herokuapp.com/\
+Repo - https://github.com/chasechambers/Task-Master
 
 
 
